@@ -1,0 +1,76 @@
+body {
+	background: url(../img/gatherHome.png) no-repeat;
+	width: 100%;
+	font-family: "Avenir", "Helvetica", sans-serif;
+	min-width: 700px;
+	height: 600px;
+}
+
+#container{
+	width: 30%;
+	margin: 15% 0 0 45%;
+	background: rgba(221,221,221,0.7);
+	min-width: 350px;
+	-webkit-border-radius: .375em;
+	-moz-border-radius: .375em;
+	border-radius: .375em;
+	height: 64%;
+}
+
+#container:first-child{
+	padding: .5em;
+}
+
+p, label, input{
+	padding: .75em .75em 0 .75em;
+	font-weight: 300;
+	font-size: 1.125em;
+	line-height: 1.5em;
+}
+
+h1{
+	font-weight: 300;
+	font-size: 1.375em;
+	width: 100%;
+	text-align: center;
+	margin-top: 1em;
+}
+
+form{
+	margin-top: 1em;
+	display: block;
+}
+
+input{
+	width: 60%;
+	height: 2em;
+	margin-top: .5em;
+	margin-left: 20%;
+	font-family: "Avenir", "Helvetica", sans-serif;
+	padding: .125em;
+	-webkit-border-radius: .125em;
+	-moz-border-radius: .125em;
+	border-radius: .125em;
+}
+
+
+.hide{
+	visibility: hidden;
+}
+
+#saveForm{
+	width: 30%;
+	margin-left: 35%;
+	font-weight: 300;
+	background: rgba(47,124,160,1.0);
+	-webkit-border-radius: .375em;
+	-moz-border-radius: .375em;
+	border-radius: .375em;
+	color: white;
+	font-variant: small-caps;
+		font-size: 1.125em;
+}
+
+.buttons input:hover{
+	cursor: pointer;
+}
